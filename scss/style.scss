@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+@import 'base/variables';
+
+*{
+    margin: 0;
+    background: $second-color;
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/sidepanel';
+@import 'blocks/header';
+@import 'blocks/orderBlock';
